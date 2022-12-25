@@ -1,0 +1,488 @@
+@media (min-width:1200px) and (max-width:1600px){
+  /* nav */
+nav .container{
+    width:80%;
+}
+nav .container .row svg{
+    height: 60px;
+    width:9%;
+}
+
+
+nav .nav-icons{
+    width:14%;
+}
+
+nav .nav-buttons{
+    width:70%;
+}
+nav .container .row .nav-buttons .list{
+  justify-content: space-between;
+}
+
+nav .container .row{
+  justify-content: space-between;
+}
+nav .container .row .nav-buttons .list .list-item a{
+  font-size: 0.7rem;
+}
+/* header */
+
+header .header-content{
+  width:55%;
+}
+
+header .header-content p{
+  padding:2%;
+}
+header .header-content h1{
+  padding:2%; 
+}
+
+header .header-content button{
+  padding:2% 4%;
+}
+
+/* section one and two */
+
+.one .container,.two .container{
+  width:90%;
+}
+.one .line{
+  height: 5rem;
+  bottom:-2.5rem;
+}
+.one .container .items .item .content,.two .container .items .item .content{
+  top:66%;
+}
+
+/* section three */
+
+.three .container{
+  width:85%;
+}
+.three .container .content p{
+  width:85%;
+}
+
+/* section four */
+.four .overlay .container .items{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.four .overlay .container .p1{
+  width:60%;
+  font-size: .9rem;
+}
+.four .overlay .container h2{
+  font-size: 1.5rem;
+}
+/* section five */
+.five .container{
+  width:100%;
+}
+.five .container .img{
+  width:27.5%;
+}
+.five .orange-box{
+  content:'';
+  position: absolute;
+  top:29%;
+  width:150%;
+  left:-35%;
+  height: 50%;
+  background-color: #f7c86f;
+  z-index:-1;
+}
+
+/* section six */
+.six{
+  min-height:96vh;
+}
+.six .container{
+  width:85%;
+}
+.six .container .row .content{
+  width:70%;
+}
+.six .container .row{
+  margin-top: 4rem;
+}
+
+/* section seven */
+.seven .container .row > *{
+  width:40%;
+}
+
+/* section eight */
+.eight .container{
+  padding:6rem 0;
+  width:85%;
+}
+.eight .container .row .content {
+  width:67%;
+}
+
+/* footer */
+footer .container{
+  padding:6rem 0;
+  width:77%;
+}
+
+}
+
+/* nav_tablets */
+@media (max-width:1199px){
+/* public */
+.container{
+  width:95%;
+}
+nav .tablet_nav_icon{
+  display: block;
+  color:white;
+  font-size: 1.2rem;
+  padding:0.32rem 1rem;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/* nav */
+nav {
+  padding:0%;
+}
+nav .container{
+  padding:1%;
+  width: 95%;
+  border-bottom:1px solid rgba(255,255,255,.1);
+  height: 100%;
+}
+nav .container .row svg{
+  width:10%;
+}
+nav .container .row .nav-icons{
+  display: none;
+}
+nav .container .row .nav-buttons{
+  display: none;
+}
+nav .container .row{
+  justify-content: space-between;
+  align-items: center; 
+}
+nav .nav_tablet{
+  padding:1px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+/* header */
+header .header-content{
+  width:90%;
+}
+header .header-content p{
+  padding:2%;
+  width:80%;
+  margin: auto;
+}
+
+/* five */
+.five .container{
+  padding:6% 0%;
+  width:95%;
+}
+.five .container{
+  flex-direction: column;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.five .container .img{
+  width:42.5%;
+  padding-bottom: 3%;
+}
+.five .container .content{
+  width:80%;
+}
+/* seven */
+.seven .container .row{
+  justify-content: space-around;
+  gap:0%;
+  margin-bottom:5rem;
+}
+.seven .container .row > *{
+  width:40%;
+}
+/* eight */
+.eight .container{
+  width:95%;
+}
+
+/* footer */
+footer .container{
+  width:90%;
+}
+footer .container .row .col-1 svg{
+  width:18%;
+  padding-bottom:6rem;
+}
+footer .container .row .col-2 .row a{
+  gap:1%;
+  padding-bottom:4rem;
+  display: block;
+  font-size: 0.8rem;
+}
+
+footer .container .row .col-1 p{
+  color: rgba(255,255,255,.65);
+  width:100%;
+  font-size: 0.9rem;
+}
+}
+/*End of nav_tablets */
+
+@media (min-width:768px) and (max-width:1199px){
+/* nav */
+nav .container .row svg{
+  width:10%;
+}
+/* one + two */
+.one .container,.two .container{
+  width:95%;
+}
+.one .container p,.two .container p{
+  padding-bottom: 5%;
+}
+.one .container .items .item,.two .container .items .item{
+  padding-bottom: 23%;
+}
+.one .container .items .item .content,.two .container .items .item .content{
+  width:85%;
+  top:54%;
+}
+.one .line{
+  height: 5rem;
+  bottom:-2.5rem;
+}
+/* three */
+.three .container .content p{
+  width:80%;
+}
+.three .container .content p span{
+  font-size: 1rem;
+  bottom:-3rem;  
+  text-decoration:orange wavy underline;
+}
+/* four */
+.four .overlay .container{
+  width:100%;
+}
+.four .overlay .container .items{
+  justify-content: space-between; 
+}
+.four .overlay .container .item{
+  width:32%;
+}
+.four .overlay .container .p1{
+  width:85%;
+}
+.four .overlay .container .items .item p{
+  width:90%;
+}
+/* six */
+
+.six .container{
+  width:95%;
+  padding-bottom: 4rem; 
+}
+.six{
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+}   
+
+@media (max-width:767px){
+/* public */
+.c_s_cursor,.comming_soon{
+  display: none;
+}
+.container{
+  width:100%;
+}
+/* nav */
+nav .container .row svg{
+  width:17%;
+}
+/* one + two */
+.one .container,.two .container{
+  width:100%;
+}
+.one .container h2,.two .container h2{
+  padding:10%;
+  text-align: center;
+}
+.one .container p,.two .container p{
+  width:100%;
+  padding-bottom: 3rem;
+  
+}
+.one .container .items,.two .container .items{
+  flex-direction: column;
+}
+.one .container .items .item,.two .container .items .item{
+  width:100%;
+  padding-bottom:38%;
+}
+.one .container .items .item .content,.two .container .items .item .content{
+  top:70%;
+}
+.one .line{
+  height: 4rem;
+  position: absolute;
+  background-color:#f5ba4b;
+  width:2px;
+  bottom:-2rem;
+  left:50%;
+  z-index: 10;
+}
+
+/* three */
+.three .container .content p{
+  width:100%;
+}
+.three .container .row{
+  flex-direction: column;
+  gap:1rem;
+}
+.three .container{
+  padding:4rem 1.5rem 7rem 1.5rem;
+}
+.three .container .content{
+  margin:none;
+}
+
+/* four */
+
+.four .overlay .container{
+  width:100%;
+}
+.four .overlay .container h2{
+  padding:2rem 0rem;
+  font-size: 1.5rem;
+}
+.four .overlay .container .p1{
+  width:100%;
+  font-size: 1rem;
+}
+.four .overlay .container .items{
+  flex-direction: column;
+  gap:3rem;
+  padding-bottom: 2rem;
+}
+.four .overlay .container .item{
+  width:100%;
+}
+
+/* five */
+.five .container {
+  width: 100%;
+  padding:3rem 0rem;
+}
+.five .container .img{
+  width:55%;
+}
+.five .container .content{
+  width:100%;
+}
+
+/* six */
+
+.six .container{
+  width:95%;
+}
+.six .container > p{
+  width:100%;
+}
+.six .container .row{
+  flex-direction: column;
+  align-items: center;
+  gap:1rem;
+  height: auto;
+}
+.six .container .row > *{
+  width: 100%;
+  
+}
+.six .container .row .col-2{
+  transform: scale(1);
+}
+.six .container .row > *::after{
+  bottom:5px;
+}
+.six .container .row .content {
+  width: 89%;
+  bottom: 2rem;
+  left: 1rem;
+}
+
+
+
+/* seven */
+.seven .container{
+  width:92%;
+}
+.seven .container .row{
+  flex-direction: column;
+  gap:2rem;
+}
+.seven .container .row > *{
+  width:100%;
+}
+
+/* eight */
+
+.eight .container .row {
+  flex-direction: column;
+  justify-content: center;
+}
+.eight .container .row .content {
+  width:100%;
+}
+.eight .container .row .content p {
+  width: 90%;
+}
+
+/* footer */
+footer .container{
+  padding:6rem 0 3rem 0;
+  width:95%;
+}
+footer .container > .row{
+  flex-direction: column;
+  gap:2rem;
+}
+footer .container .row .col-1{
+  width:100%;
+}
+footer .container .row .col-2{
+  width:100%;
+}
+footer .container .row .col-2 .row{
+  justify-content: flex-start;
+  gap:3%;
+  padding-bottom:0rem;
+}
+footer .container .row .col-1 svg{
+  width:16%;
+  padding-bottom:2rem;
+}
+footer .container .row .col-2 .row a{
+  padding-bottom:2rem;
+}
+}
+
+
+@media (max-width:600px){
+/* nav */
+nav .container .row svg{
+  width:22%;
+}
+}
